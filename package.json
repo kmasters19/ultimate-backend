@@ -42,7 +42,7 @@
     "@nestjs/microservices": "^6.8.5",
     "@nestjs/passport": "^6.1.0",
     "@nestjs/platform-express": "^6.7.2",
-    "@nestjs/platform-fastify": "^6.8.4",
+    "@nestjs/platform-fastify": "^6.11.6",
     "@nestjs/swagger": "^3.1.0",
     "@nestjs/terminus": "^6.5.3",
     "@nestjs/typeorm": "^6.2.0",

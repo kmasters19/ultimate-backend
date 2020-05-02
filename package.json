@@ -25,7 +25,9 @@
     "test:e2e": "jest --config ./apps/gateway-admin/test/jest-e2e.json",
     "kompose": "kompose convert -o kubernetes/deployment.yaml",
     "docs": "npx compodoc --theme material --output docs -p tsconfig.json -s",
-    "precommit": "snyk protect"
+    "precommit": "snyk protect",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "@anchan828/nest-sendgrid": "^0.1.20",
@@ -112,7 +114,8 @@
     "ursa-optional": "^0.10.1",
     "uuid": "^3.3.3",
     "uuid-apikey": "^1.4.6",
-    "vhost": "^3.0.2"
+    "vhost": "^3.0.2",
+    "snyk": "^1.316.2"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.6.0",
@@ -136,7 +139,6 @@
     "remark-lint-emphasis-marker": "^1.0.3",
     "remark-lint-strong-marker": "^1.0.3",
     "remark-preset-lint-recommended": "^3.0.3",
-    "snyk": "^1.236.1",
     "supertest": "^4.0.2",
     "ts-jest": "^24.1.0",
     "ts-loader": "^6.1.1",
@@ -189,5 +191,6 @@
     "plugins": [
       "remark-preset-lint-recommended"
     ]
-  }
+  },
+  "snyk": true
 }

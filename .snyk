@@ -1,4 +1,44 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
-patch: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - '@nestjs/swagger > lodash':
+        patched: '2020-05-02T05:20:21.261Z'
+    - bull > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - casbin > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - codacy-coverage > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - config-yml > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - nestjs-i18n > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - query > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - casbin-mongodb-adapter > casbin > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - nestjs-rbac > node-cache > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - sinon > @sinonjs/samsam > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - '@nestjs/graphql > merge-graphql-schemas > graphql-toolkit > lodash':
+        patched: '2020-05-02T05:20:21.261Z'
+    - nestjs-casbin-mongodb > casbin-mongodb-adapter > casbin > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - codacy-coverage > request-promise > request-promise-core > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - mongo-cursor-pagination > mongodb-extended-json > async > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - '@nestjs/graphql > merge-graphql-schemas > graphql-toolkit > graphql-import > lodash':
+        patched: '2020-05-02T05:20:21.261Z'
+    - nestjs-graphql-gateway > merge-graphql-schemas > @graphql-toolkit/schema-merging > @graphql-toolkit/common > lodash:
+        patched: '2020-05-02T05:20:21.261Z'
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-05-02T05:20:21.261Z'

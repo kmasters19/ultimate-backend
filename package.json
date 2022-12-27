@@ -38,7 +38,7 @@
     "@nestjs/core": "^6.7.2",
     "@nestjs/cqrs": "^6.1.0",
     "@nestjs/graphql": "^6.5.3",
-    "@nestjs/jwt": "^6.1.1",
+    "@nestjs/jwt": "^10.0.0",
     "@nestjs/microservices": "^6.8.5",
     "@nestjs/passport": "^6.1.0",
     "@nestjs/platform-express": "^6.7.2",

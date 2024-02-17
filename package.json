@@ -57,7 +57,7 @@
     "axios": "^0.19.0",
     "bcrypt": "^3.0.6",
     "bull": "^3.11.0",
-    "cache-manager": "^2.10.0",
+    "cache-manager": "^2.11.1",
     "casbin": "^3.0.4",
     "casbin-mongodb-adapter": "^1.0.5",
     "class-transformer": "^0.2.3",
